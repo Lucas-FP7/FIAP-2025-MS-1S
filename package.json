@@ -2,19 +2,24 @@
   "name": "projetos",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://github.com/Lucas-FP7/FIAP-2025-MS-1S#readme",
-  "bugs": {
-    "url": "https://github.com/Lucas-FP7/FIAP-2025-MS-1S/issues"
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Lucas-FP7/FIAP-2025-MS-1S.git"
   },
-  "license": "ISC",
+  "keywords": [],
   "author": "",
+  "license": "ISC",
   "type": "commonjs",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "bugs": {
+    "url": "https://github.com/Lucas-FP7/FIAP-2025-MS-1S/issues"
+  },
+  "homepage": "https://github.com/Lucas-FP7/FIAP-2025-MS-1S#readme",
+  "devDependencies": {
+    "husky": "^9.1.7"
   }
 }
